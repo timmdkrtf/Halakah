@@ -1,0 +1,347 @@
+.roboto{
+  font-family: "Roboto", serif;
+}
+
+.inria-serif{
+  font-family: "Inria Serif", serif;
+}
+
+.alike{
+  font-family: "Alike", serif;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+  font-size: 15px;
+  padding: 10px 15px;
+}
+
+.navbar .line-horizontal{
+  width: 2px;
+  height: 35px;
+  background-color: grey;
+  margin: 0 10px;
+}
+
+.navbar .d-flex.gap-2{
+  padding: 10px;
+  margin: -5px 0 0 0;
+}
+
+.navbar .d-flex.gap-2 a{
+  color: rgb(51, 51, 51);
+}
+
+.about{
+  margin: 50px 0 120px 0;
+}
+
+.about .row{
+  gap: 200px;
+}
+
+.about .row .halakah-about .btn{
+  background-color: #141212;
+  color: #ffffff;
+  padding: 10px 15px;
+  transition: 0.3s;
+}
+
+.about .row .halakah-about .btn:hover{
+  color: #306030;
+  background-color: #ffffff;
+  font-weight: 600;
+  border: 1px solid #306030;
+  box-shadow: 2px 2px 0 0 #306030;
+}
+
+.about .row .halakah-about{
+  gap: 70px;
+  flex-wrap: wrap;
+}
+
+.about .row .halakah-about .text{
+  width: calc(50% - 35px);
+}
+
+.about .row .halakah-about .image{
+  width: calc(50% - 35px);
+}
+
+.about .row .halakah-about .image img{
+  width: 100%;
+}
+
+.about .row .publisher-about .btn{
+  border: 1px solid #141212;
+  padding: 10px 15px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.about .row .publisher-about .btn:hover{
+  border: 2px solid #306030;
+}
+
+.about .row .publisher-about{
+  gap: 70px;
+  flex-wrap: wrap;
+}
+
+.about .row .publisher-about .text{
+  width: calc(50% - 35px);
+}
+
+.about .row .publisher-about .image{
+  width: calc(50% - 35px);
+}
+
+.about .row .publisher-about .image img{
+  width: 100%;
+}
+
+/* service */
+
+.service {
+  padding: 50px 0;
+}
+
+.service h2{
+  font-size: 38px;
+}
+
+.service .row{
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service .row .service-card{
+  width: calc(33% - 20px);
+  padding: 35px 25px 15px 25px;
+  box-shadow: 0 0 1px 0 #141212;
+}
+
+.service .row .service-card svg{
+  font-size: 45px;
+}
+
+.service .row .service-card h4{
+  font-size: 24px;
+}
+
+.service .row .service-card p{
+  font-size: 13px;
+  opacity: 0.8;
+}
+
+.book{
+  padding: 50px 0;
+}
+
+.book .row .content-book{
+  width: 32%;
+  padding: 25px;
+  border-radius: 30px;
+  margin: 130px 0 0 0;
+  box-shadow: 0 0 1px 1px #306030;
+}
+
+.book .row .content-book .cover{
+  display: flex;
+  gap: 10px;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin: -130px 0 20px 0;
+  box-shadow: 0 0 1px 1px #306030;
+}
+
+.book .row .content-book .cover img{
+  width: calc(50% - 5px);
+  border: 1px solid #989898;
+}
+
+.book .row .content-book h5{
+  margin: 30px 0 10px 0;
+}
+
+.book .row .content-book p{
+  opacity: 0.85;
+  font-size: 13px;
+  margin: 0 0 25px 0;
+}
+
+.book .row .content-book a{
+  background-color: #306030;
+  color: #ffffff;
+  padding: 8px 18px;
+  font-size: 14px;
+}
+
+.book .row .content-book a:hover{
+  background-color: #ffffff;
+  color: #306030;
+  font-weight: 600;
+  border: 1px solid #306030;
+}
+
+footer{
+  background-image: url("../src/assets/image/bg-footer2.png");
+  height: auto;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 0 0 0;
+  color: white;
+}
+
+footer .row .col-lg-5 p{
+  opacity: 0.8;
+  font-size: 12px;
+}
+
+footer .row .col-lg-5 img{
+  width: 260px;
+  margin: 0 0 15px 0;
+}
+
+.majmu{
+  margin: 20px 0 0 0;
+}
+
+.majmu .breadcrumb{
+  margin: 20px 0;
+}
+
+.majmu .breadcrumb li{
+  font-size: 12px;
+}
+
+.majmu .d-flex .left{
+  width: 45%;
+}
+
+.majmu .d-flex .left h4{
+  font-size: 22px;
+}
+
+.majmu .d-flex .left p{
+  font-size: 14px;
+  text-align: justify;
+}
+
+.majmu .d-flex .right{
+  width: 45%;
+  gap: 20px;
+}
+
+.majmu .d-flex .right img{
+  width: calc(50% - 10px);
+  height: fit-content;
+  object-fit: contain;
+  box-shadow: 1px 1px #c4c4c4, -1px -1px #c4c4c4;
+}
+
+@media screen and (max-width: 1200px) {
+  
+}
+@media screen and (max-width: 991px) {
+  .navbar .line-horizontal{
+    width: 100px;
+    height: 2px;
+  }
+
+  .service .row .service-card{
+    width: calc(50% - 20px);
+  }
+
+  .book .row .content-book{
+    width: 50%;
+  }
+
+  .majmu .d-flex.justify-content-between{
+    flex-direction: column-reverse;
+    gap: 40px;
+    margin: 40px 0 0 0;
+    align-items: center;
+  }
+
+  .majmu .d-flex .left{
+    width: 100%;
+  }
+
+  .majmu .d-flex .right{
+    width: 80%;
+    gap: 20px;
+  }
+
+}
+@media screen and (max-width: 768px) {
+  .about .row .halakah-about{
+    flex-direction: column;
+  }
+
+  .about .row .halakah-about .text{
+    width: 100%;
+  }
+  
+  .about .row .halakah-about .image{
+    width: 100%;
+    text-align: center;
+  }
+
+  .about .row .halakah-about .image img{
+    width: 80%;
+  }
+
+  .about .row .publisher-about{
+    flex-direction: column-reverse;
+  }
+
+  .about .row .publisher-about .text{
+    width: 100%;
+  }
+  
+  .about .row .publisher-about .image{
+    width: 100%;
+    text-align: center;
+  }
+  .about .row .publisher-about .image img{
+    width: 80%;
+  }
+
+  .service .row .service-card{
+    width: 75%;
+  }
+
+  .book .row .content-book{
+    width: 75%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .service .row .service-card{
+    width: 90%;
+  }
+
+  .book .row{
+    justify-content: center;
+  }
+
+  .book .row .content-book{
+    width: 85%;
+  }
+
+  .majmu .d-flex .right{
+    width: 100%;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .service .row .service-card{
+    width: 95%;
+  }
+
+  .book .row .content-book{
+    width: 95%;
+  }
+}
