@@ -8,7 +8,7 @@ export default function About(){
                 <div className="row">
                     <div className="halakah-about d-flex align-items-center justify-content-between">
                         <div className="text">
-                            <h1 className="roboto">Tentang Halakah</h1>
+                            <h1 className="roboto">Tentang <span>Halakah</span></h1>
                             <p className="inria-serif mt-3" style={{opacity:"0.85", wordSpacing:"2px", lineHeight:"30px"}}>Halakah merupakan bagian dari Penerbit Abdi Bangun Aksara, hadir menyampaikan pesan-pesan keimanan melalui buku-buku islami yang mendalam. Setiap karya yang dihadirkan adalah jembatan untuk memahami makna agama dan menggali nilai-nilai luhur Islam, menghidupkan jiwa, dan menginspirasi perjalanan ruhani.</p>
                             <a className="btn mt-5 roboto" href="#publisher-about">Baca Selengkapnya</a>
                         </div>

@@ -7,7 +7,7 @@ export default function Service(){
         <div className="service" id="service">
             <div className="container">
                 <div>
-                    <h2 className="roboto text-center">Layanan Kami</h2>
+                    <h2 className="roboto">Layanan Kami</h2>
                 </div>
                 <div className="row mt-5">
                     <div className="service-card">
