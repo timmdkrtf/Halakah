@@ -1,5 +1,5 @@
 import coverDepan from "../assets/image/Cover Majmuatul Awrod 1.png";
-import coverBelakang from "../assets/image/Cover Belakang.png";
+import coverBelakang from "../assets/image/Cover Majmuatul Awrod.png";
 import Logo from "../assets/image/1. Halakah Logo Utama (P).png";
 
 import { useState } from "react";

@@ -1,4 +1,5 @@
 import PenerbitLogo from "../assets/image/Logo Utama Penerbit ABA (P).png"
+import Logo from "../assets/image/1. Halakah Logo Utama (P).png"
 import CoverEdit from "../assets/image/Group 9.png"
 
 export default function About(){
@@ -13,7 +14,7 @@ export default function About(){
                             <a className="btn mt-5 roboto" href="#publisher-about">Baca Selengkapnya</a>
                         </div>
                         <div className="image text-center">
-                            <img src={CoverEdit} alt="" />
+                            <img src={Logo} alt="" />
                         </div>
                     </div>
                     <div className="publisher-about d-flex gap-3 justify-content-between" id="publisher-about">
@@ -23,7 +24,7 @@ export default function About(){
                         <div className="text">
                             <h2 className="roboto">Tentang Penerbit Abdi Bangun Aksara</h2>
                             <p className="inria-serif mt-3" style={{opacity:"0.85", wordSpacing:"2px", lineHeight:"30px"}}>
-                                Abdi Bangun Aksara hadir untuk mendukung penulis dan pecinta
+                                Abdi Bangun Aksara hadir untuk mendukung penulis dan pencinta
                                 buku di Indonesia dengan semangat tinggi. Kami berkomitmen menerbitkan
                                 karya berkualitas yang inspiratif dan bermanfaat, serta menyediakan
                                 dukungan penuh bagi penulis. Selain itu, kami berfokus pada
