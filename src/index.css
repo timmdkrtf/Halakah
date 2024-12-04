@@ -97,7 +97,7 @@
 .about .row .publisher-about .btn::after{
   content: " ";
   position: absolute;
-  background-image: url('../src/assets/image/Group\ 7.png');
+  background-image: url('../src/assets/image/Group-7.png');
   background-size: contain;
   background-repeat: no-repeat;
   width: 70px;
@@ -191,7 +191,7 @@
 .service .row::after{
   content: " ";
   position: absolute;
-  background-image: url('/src/assets/image/Rectangle\ 21.png');
+  background-image: url('/src/assets/image/Rectangle-21.png');
   width: 55px;
   height: 105px;
   background-size: contain;
