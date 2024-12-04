@@ -17,7 +17,7 @@ export default function MajmuBook() {
   const [price, setPrice] = useState({ current: "Rp125.000" });
   const [isSoftCover, setIsSoftCover] = useState(false);
   const [href, setHref] = useState(
-    "https://api.whatsapp.com/send?phone=6281288048052&text=Halo%20kak%2C%20saya%20ingin%20memesan%20buku%20hard%20cover%20Majmuatul%20Awrod"
+    "https://api.whatsapp.com/send?phone=6281288048052&text=Halo%20kak%2C%20saya%20ingin%20memesan%20Majmuatul%20Awrod"
   );
 
   const toggleCover = () => setShowBackCover((prev) => !prev);
@@ -33,7 +33,7 @@ export default function MajmuBook() {
       setPrice({ current: "Rp125.000" });
       setIsSoftCover(false);
       setHref(
-        "https://api.whatsapp.com/send?phone=6281288048052&text=Halo%20kak%2C%20saya%20ingin%20memesan%20buku%20hard%20cover%20Majmuatul%20Awrod"
+        "https://api.whatsapp.com/send?phone=6281288048052&text=Halo%20kak%2C%20saya%20ingin%20memesan%20Majmuatul%20Awrod"
       );
     }
   };
