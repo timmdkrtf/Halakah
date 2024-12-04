@@ -1,5 +1,5 @@
 import PenerbitLogo from "../assets/image/Logo Utama Penerbit ABA (P).png"
-import CoverEdit from "../assets/image/Group 8.png"
+import CoverEdit from "../assets/image/Group 9.png"
 
 export default function About(){
     return(
