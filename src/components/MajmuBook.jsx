@@ -257,7 +257,7 @@ export default function MajmuBook() {
                   </div>
                   <div className="text">
                     <h6 className="roboto">Halaman</h6>
-                    <p className="inria-serif">vi + 328</p>
+                    <p className="inria-serif">xii + 328</p>
                   </div>
                   <div className="text">
                     <h6 className="roboto">Bahasa</h6>
