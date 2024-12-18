@@ -99,7 +99,7 @@
 .about .row .halakah-about .image::after{
   content: "";
   position: absolute;
-  background-image: url('../src/assets/image/morse-halakah\(right\).svg');
+  background-image: url('../src/assets/image/morse-halakah-right).svg');
   width: 30px;
   height: 75%;
   top: 0;
