@@ -630,6 +630,7 @@ footer .row .col-lg-5 img{
 
   .about .row .publisher-about{
     flex-direction: column-reverse;
+    gap: 50px !important;
   }
 
   .about .row .publisher-about .text{
@@ -707,6 +708,10 @@ footer .row .col-lg-5 img{
 
   .majmu .content .cover img{
     width: 70%;
+}
+
+.about .row .publisher-about .image img{
+  width: 100%;
 }
 }
 @media screen and (max-width: 380px) {
