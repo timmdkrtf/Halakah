@@ -93,6 +93,19 @@
 
 .about .row .halakah-about .image{
   width: calc(50% - 35px);
+  position: relative;
+}
+
+.about .row .halakah-about .image::after{
+  content: "";
+  position: absolute;
+  background-image: url('../src/assets/image/morse-halakah\(right\).svg');
+  width: 30px;
+  height: 75%;
+  top: 0;
+  right: 0;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .about .row .halakah-about .image img{
