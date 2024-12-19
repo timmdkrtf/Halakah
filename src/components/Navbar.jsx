@@ -6,7 +6,7 @@ import { BsFacebook } from "react-icons/bs";
 
 export default function Navbar(){
     return(
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
         <div className="container">
             <a className="navbar-brand" href="#"><img src={Logo} alt="" style={{width: "85px"}} /></a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">

@@ -86,7 +86,7 @@ export default function MajmuBook() {
         </div>
       </div>
 
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
         <div className="container">
           <a className="navbar-brand" href="#">
             <img src={Logo} alt="" style={{ width: "85px" }} />

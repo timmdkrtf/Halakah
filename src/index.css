@@ -10,6 +10,10 @@
   font-family: "Alike", serif;
 }
 
+body{
+  background-color: #FAF9F6;
+}
+
 .navbar .navbar-nav .nav-item .nav-link{
   font-size: 15px;
   padding: 10px 15px;
@@ -36,6 +40,20 @@
   position: relative;
 }
 
+.about::before{
+  content: "";
+  position: absolute;
+  background-image: url('../src/assets/image/bg-texture-fiber4.png');
+  width: 500px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.8;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
 .about::after{
   content: "";
   position: absolute;
@@ -49,6 +67,20 @@
 
 .about .row{
   gap: 200px;
+}
+
+.about .row::before{
+  content: "";
+  position: absolute;
+  background-image: url('../src/assets/image/bg-texture-fiber3.png');
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  opacity: 0.25;
+  right: 0;
+  bottom: -140px;
+  z-index: -1;
 }
 
 .about .row .halakah-about .btn{
@@ -144,6 +176,7 @@
 .about .row .publisher-about{
   gap: 70px;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .about .row .publisher-about .text{
@@ -293,6 +326,10 @@
   border-radius: 30px;
   margin: 130px 0 0 0;
   box-shadow: 0 0 1px 1px #306030;
+  background-image: url('../src/assets/image/bg-texture-fiber.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
 }
 
 .book .row .content-book .cover{
@@ -354,6 +391,10 @@ footer .row .col-lg-5 img{
   margin: 0 0 15px 0;
 }
 
+.modal{
+  background-color: #FAF9F6;
+}
+
 .modal .modal-header{
   padding: 15px 25px;
 }
@@ -381,6 +422,10 @@ footer .row .col-lg-5 img{
 
 .majmu .container{
   padding: 35px 0 0 0;
+}
+
+.majmu{
+  background-color: #FAF9F6;
 }
 
 .majmu .content{
@@ -414,18 +459,6 @@ footer .row .col-lg-5 img{
 .majmu .content .detail{
   width: 55%;
   position: relative;
-}
-
-.majmu .content .detail::after{
-  content: "";
-  position: absolute;
-  background-image: url('../src/assets/image/morse-halakah\(right\).svg');
-  width: 20px;
-  height: 300px;
-  top: 0;
-  right: 0;
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .majmu .content .detail small{
