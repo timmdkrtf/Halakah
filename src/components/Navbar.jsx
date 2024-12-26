@@ -33,7 +33,7 @@ export default function Navbar(){
                 <div className="line-horizontal">
 
                 </div>
-                <div class="d-flex gap-2">
+                <div className="d-flex gap-2">
                     <a href="https://wa.me/message/COYL226EZJTZC1" target="_blank"><BsWhatsapp className="fs-5" /></a>
                     <a href="https://www.instagram.com/halakah.co.id" target="_blank"><BsInstagram className="fs-5" /></a>
                     <a href="https://www.facebook.com/profile.php?id=61561826281024" target="_blank"><BsFacebook className="fs-5" /></a>

@@ -372,11 +372,9 @@ body{
 }
 
 footer{
-  background-image: url("../src/assets/image/bg-footer2.png");
   height: auto;
   width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #306030;
   padding: 50px 0 0 0;
   color: white;
 }
