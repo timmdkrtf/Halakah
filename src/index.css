@@ -379,14 +379,14 @@ footer{
   color: white;
 }
 
-footer .row .col-lg-5 p{
+footer .mb-2 a{
+  font-size: 14px;
   opacity: 0.8;
-  font-size: 12px;
 }
 
-footer .row .col-lg-5 img{
-  width: 260px;
-  margin: 0 0 15px 0;
+footer .text-end p{
+  font-size: 14px;
+  opacity: 0.8;
 }
 
 .modal{

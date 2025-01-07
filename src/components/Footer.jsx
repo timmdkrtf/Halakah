@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer id="contact" className="text-white py-4">
       <Container>
-        <Row className="justify-content-between align-items-center" style={{fontFamily: "'League Spartan', sans-serif"}}>
+        <Row className="justify-content-between align-items-center">
           <Col md={6} className="py-4">
             <img src={logo1} className="w-50 mb-1" alt="Halakah Logo" /><br/>
             <small className="opacity-75" style={{ fontSize:"13px" }}>by Abdi Bangun Aksara</small>
@@ -27,7 +27,7 @@ const Footer = () => {
               <IoLogoWhatsapp className="me-2" />
                 <a href="https://api.whatsapp.com/send?phone=6281288048052" className="text-white text-decoration-none">+62 812 8804 8052</a>
               </div>
-              <div className="d-flex align-items-center">
+              <div className="d-flex align-items-center mb-2">
                 <MdEmail className="me-2" />
                 <a href="mailto:contact@halakah.co.id" className="text-white text-decoration-none">contact@halakah.co.id</a>
               </div>
@@ -48,7 +48,8 @@ const Footer = () => {
           </Col>
         </Row>
         <Row>
-          <Col className="text-center">
+          <Col className="text-end">
+          <hr/>
             <p className="mb-0 opacity-75">© 2024 PT Abdi Bangun Aksara &middot; All Rights Reserved</p>
           </Col>
         </Row>
