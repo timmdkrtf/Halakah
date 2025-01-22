@@ -50,7 +50,7 @@ const Footer = () => {
         <Row>
           <Col className="text-end">
           <hr/>
-            <p className="mb-0 opacity-75">© 2024 PT Abdi Bangun Aksara &middot; All Rights Reserved</p>
+            <p className="mb-0 opacity-75">© 2025 PT Abdi Bangun Aksara &middot; All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
