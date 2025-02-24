@@ -1,5 +1,8 @@
 import CoverBelakang from "../assets/image/Cover Majmuatul Awrod.png"
 import CoverDepan from "../assets/image/Cover Majmuatul Awrod 1.png"
+import QuestionMarkBook from "../assets/image/question book mark.png"
+
+import CountdownTimer from "../components/CountdownTimer"
 
 export default function Book(){
     return(
@@ -18,6 +21,18 @@ export default function Book(){
                         <p className="inria-serif">Majmuatul Awrod adalah buku yang berisi rangkaian doa, zikir, dan wirid yang dihimpun untuk diamalkan oleh umat Muslim secara rutin. Berisi bacaan dari Al-Qur'an, hadis, serta ajaran ulama, buku ini bertujuan memperkuat hubungan spiritual dengan Allah melalui doa-doa yang dibaca setiap hari, baik untuk perlindungan, keberkahan, maupun ketenangan jiwa.</p>
                         <a className="alike btn" href="/buku/Majmuatul-Awrod">Jelajahi Sekarang</a>
                     </div>
+                    <div className="content-book">
+                        <div className="cover">
+                            <img src={QuestionMarkBook} alt="" />
+                            <img src={QuestionMarkBook} alt="" />
+                        </div>
+                        <h5 className="roboto">Metode Talaqqi</h5>
+                        <p className="inria-serif">Buku Metode Talaqqi adalah panduan praktis untuk belajar membaca Al-Qur'an dengan mudah dan cepat. Terdiri dari tiga bab, buku ini membahas cara membaca Al-Qur'an, hukum tajwid, dan motivasi dalam membacanya. Dengan metode talaqqi, buku ini membantu pembaca memahami Al-Qur’an secara efektif dan mendalam.</p>
+                        <a className="alike btn" href="/buku/Metode-Talaqqi">Jelajahi Sekarang</a>
+                    </div>
+                </div>
+                <div className="OnGoingProject">
+                        <CountdownTimer targetDate="2025-02-26T12:00:00" />
                 </div>
             </div>
         </div>

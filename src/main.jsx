@@ -8,6 +8,7 @@ import './index.css'
 import React, { useRef, useEffect, useState } from 'react';
 import Landing from './pages/Landing.jsx';
 import MajmuPage from './pages/MajmuPage.jsx';
+import MetodeTalaqqiPage from './pages/MetodeTalaqqiPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: '/buku/Majmuatul-Awrod',
     element: <MajmuPage />
+  },
+  {
+    path: '/buku/Metode-Talaqqi',
+    element: <MetodeTalaqqiPage />
   },
 ]);
 
