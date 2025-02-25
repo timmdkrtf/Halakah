@@ -1,6 +1,7 @@
 import CoverBelakang from "../assets/image/Cover Majmuatul Awrod.png"
 import CoverDepan from "../assets/image/Cover Majmuatul Awrod 1.png"
-import QuestionMarkBook from "../assets/image/question book mark.png"
+import CoverDepanMetodeTalaqqi from "../assets/image/Cover-depan-metode-talaqqi.png"
+import CoverBelakangMetodeTalaqqi from "../assets/image/Cover-belakang-metode-talaqqi.png"
 
 import CountdownTimer from "../components/CountdownTimer"
 
@@ -23,8 +24,8 @@ export default function Book(){
                     </div>
                     <div className="content-book">
                         <div className="cover">
-                            <img src={QuestionMarkBook} alt="" />
-                            <img src={QuestionMarkBook} alt="" />
+                            <img src={CoverDepanMetodeTalaqqi} alt="" />
+                            <img src={CoverBelakangMetodeTalaqqi} alt="" />
                         </div>
                         <h5 className="roboto">Metode Talaqqi</h5>
                         <p className="inria-serif">Buku Metode Talaqqi adalah panduan praktis untuk belajar membaca Al-Qur'an dengan mudah dan cepat. Terdiri dari tiga bab, buku ini membahas cara membaca Al-Qur'an, hukum tajwid, dan motivasi dalam membacanya. Dengan metode talaqqi, buku ini membantu pembaca memahami Al-Qur’an secara efektif dan mendalam.</p>

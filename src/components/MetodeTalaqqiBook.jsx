@@ -1,5 +1,7 @@
-import cover from "../assets/image/question book mark.png";
 import Logo from "../assets/image/1. Halakah Logo Utama (P).png";
+
+import CoverDepanMetodeTalaqqi from "../assets/image/Cover-depan-metode-talaqqi.png"
+import CoverBelakangMetodeTalaqqi from "../assets/image/Cover-belakang-metode-talaqqi.png"
 
 import { useState } from "react";
 
@@ -11,6 +13,10 @@ export default function MajmuBook() {
   const breadcrumbStyle = {
     "--bs-breadcrumb-divider": `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E")`,
   };
+
+  const toggleCover = () => setShowBackCover((prev) => !prev);
+
+  const [showBackCover, setShowBackCover] = useState(false);
 
   return (
     <>
@@ -67,9 +73,25 @@ export default function MajmuBook() {
             <div className="cover">
               <img
                 id="bookCover"
-                src={cover}
+                src={showBackCover ? CoverBelakangMetodeTalaqqi : CoverDepanMetodeTalaqqi}
                 alt=""
               />
+              <button onClick={toggleCover} className="d-flex">
+                {showBackCover ? "Cover Depan" : "Cover Belakang"}
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  className="bi bi-arrow-right mt-1 ms-1"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"
+                  />
+                </svg>
+              </button>
             </div>
             <div className="detail">
               <h2 className="roboto">Metode Talaqqi</h2>
