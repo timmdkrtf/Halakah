@@ -674,7 +674,9 @@ footer .text-end p{
 }
 
 @media screen and (max-width: 1200px) {
-  
+  .countdown .content{
+    width: 60%;
+  }
 }
 @media screen and (max-width: 991px) {
   .navbar .line-horizontal{
@@ -698,12 +700,16 @@ footer .text-end p{
   }
 
   .book .row .content-book{
-    width: 50%;
+    width: 47.5%;
   }
 
   .majmu .content .cover{
     width: 35%;
     text-align: center;
+}
+
+.countdown .content{
+  width: 75%;
 }
 
 }
@@ -778,8 +784,27 @@ footer .text-end p{
     width: 100%;
     position: relative;
 }
+
+.countdown .content{
+  width: 100%;
+}
 }
 @media screen and (max-width: 576px) {
+
+  .about::before{
+    content: "";
+    position: absolute;
+    background-image: url('../src/assets/image/bg-texture-fiber4.png');
+    width: 70%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.8;
+    left: 0;
+    top: 0;
+    z-index: -1;
+  }
+
   .service .row .service-card{
     width: 90%;
   }
@@ -810,6 +835,20 @@ footer .text-end p{
 .about .row .publisher-about .image img{
   width: 100%;
 }
+
+.countdown .content .count-flex{
+  gap: 35px;
+  width: 100%;
+}
+
+.countdown .content .count-flex .time b{
+  font-size: 35px;
+}
+
+.countdown .content .count-flex .time p{
+  font-size: 12px;
+}
+
 }
 @media screen and (max-width: 380px) {
   .service .row .service-card{
@@ -818,5 +857,19 @@ footer .text-end p{
 
   .book .row .content-book{
     width: 95%;
+  }
+
+  .countdown .content .count-flex{
+    gap: 25px;
+    width: 100%;
+  }
+
+  .countdown .content .count-flex .time b{
+    font-size: 30px;
+    padding: 0 10px;
+  }
+  
+  .countdown .content .count-flex .time p{
+    font-size: 11px;
   }
 }
