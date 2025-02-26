@@ -1,7 +1,7 @@
 import CoverBelakang from "../assets/image/Cover Majmuatul Awrod.png"
 import CoverDepan from "../assets/image/Cover Majmuatul Awrod 1.png"
 import CoverDepanMetodeTalaqqi from "../assets/image/Cover-depan-metode-talaqqi.png"
-import CoverBelakangMetodeTalaqqi from "../assets/image/Cover-belakang-metode-talaqqi.png"
+import CoverBelakangMetodeTalaqqi from "../assets/image/Cover-belakang-metode-talaqqi-no-isbn.png"
 
 import CountdownTimer from "../components/CountdownTimer"
 
@@ -27,14 +27,14 @@ export default function Book(){
                             <img src={CoverDepanMetodeTalaqqi} alt="" />
                             <img src={CoverBelakangMetodeTalaqqi} alt="" />
                         </div>
-                        <h5 className="roboto">Metode Talaqqi</h5>
+                        <h5 className="roboto">Metode Talaqqi: Metode Cepat Belajar Membaca Al-Qur'an</h5>
                         <p className="inria-serif">Buku Metode Talaqqi adalah panduan praktis untuk belajar membaca Al-Qur'an dengan mudah dan cepat. Terdiri dari tiga bab, buku ini membahas cara membaca Al-Qur'an, hukum tajwid, dan motivasi dalam membacanya. Dengan metode talaqqi, buku ini membantu pembaca memahami Al-Qur’an secara efektif dan mendalam.</p>
                         <a className="alike btn" href="/buku/Metode-Talaqqi">Jelajahi Sekarang</a>
                     </div>
                 </div>
-                <div className="OnGoingProject">
-                        <CountdownTimer targetDate="2025-02-26T12:00:00" />
-                </div>
+                {/* <div className="OnGoingProject">
+                    <CountdownTimer targetDate="2025-02-26T12:00:00" />
+                </div> */}
             </div>
         </div>
     );
