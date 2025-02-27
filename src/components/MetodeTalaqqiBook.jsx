@@ -1,7 +1,7 @@
 import Logo from "../assets/image/1. Halakah Logo Utama (P).png";
 
 import CoverDepanMetodeTalaqqi from "../assets/image/Cover-depan-metode-talaqqi.png"
-import CoverBelakangMetodeTalaqqi from "../assets/image/Cover-belakang-metode-talaqqi-no-isbn.png"
+import CoverBelakangMetodeTalaqqi from "../assets/image/Cover-belakang-metode-talaqqi-new.png"
 
 import { useState } from "react";
 
