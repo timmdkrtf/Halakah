@@ -360,6 +360,15 @@ body{
   margin: 0 0 25px 0;
 }
 
+.book .row .content-book.kedua b{
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.book .row .content-book.kedua h5{
+  margin: 10px 0;
+}
+
 .book .row .content-book a{
   background-color: #306030;
   color: #ffffff;
@@ -476,8 +485,8 @@ footer .text-end p{
 }
 
 .majmu .content .detail .title h5{
-  font-weight: 700;
-  color: black;
+  font-weight: 600;
+  opacity: 0.9;
 }
 
 .majmu .content .detail .harga{
