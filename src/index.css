@@ -394,13 +394,34 @@ footer{
 }
 
 footer .mb-2 a{
-  font-size: 14px;
-  opacity: 0.8;
+  font-size: 16px;
+}
+
+footer img{
+  width: 20%;
+  height: 100%;
+  object-fit: contain;
+}
+
+footer small{
+  font-family: "Open Sans", sans-serif;
+  font-size: 11px;
+  opacity: 0.6;
+}
+
+footer .text-center .fs-3{
+ padding: 0; 
+}
+
+footer .row .pt-4 .mt-3{
+  font-family: "Open Sans", sans-serif;
 }
 
 footer .text-end p{
-  font-size: 14px;
-  opacity: 0.8;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  margin: 0 0 -4px 0;
 }
 
 .modal .modal-header{
