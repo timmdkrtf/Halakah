@@ -128,7 +128,7 @@ export default function MajmuBook() {
             </div>
             <div className="detail">
               <div className="title mb-3 mt-1">
-                <h5 className="inria-serif fs-4">Segera Terbit!</h5>
+                <h5 className="inria-serif fs-4">Pre Order Sekarang!</h5>
               </div>
               <h2 className="roboto mb-5">Metode Talaqqi: Metode Cepat Belajar Membaca Al-Qur'an</h2>
               <a
@@ -192,7 +192,7 @@ export default function MajmuBook() {
                   </div>
                   <div className="text">
                     <h6 className="roboto">ISBN</h6>
-                    <p className="inria-serif">978-623-10-8450-7x</p>
+                    <p className="inria-serif">978-623-10-8450-7</p>
                   </div>
                   <div className="text">
                     <h6 className="roboto">Halaman</h6>

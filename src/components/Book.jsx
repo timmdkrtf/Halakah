@@ -18,7 +18,7 @@ export default function Book(){
                             <img src={CoverDepan} alt="" />
                             <img src={CoverBelakang} alt="" />
                         </div>
-                        <b className="inria-serif invisible">Segera Terbit!</b>
+                        <b className="inria-serif invisible">Pre Order Sekarang!</b>
                         <h5 className="roboto">Majmuatul Awrod</h5>
                         <p className="inria-serif">Majmuatul Awrod adalah buku yang berisi rangkaian doa, zikir, dan wirid yang dihimpun untuk diamalkan oleh umat Muslim secara rutin. Berisi bacaan dari Al-Qur'an, hadis, serta ajaran ulama, buku ini bertujuan memperkuat hubungan spiritual dengan Allah melalui doa-doa yang dibaca setiap hari, baik untuk perlindungan, keberkahan, maupun ketenangan jiwa.</p>
                         <a className="alike btn" href="/buku/Majmuatul-Awrod">Jelajahi Sekarang</a>
@@ -28,7 +28,7 @@ export default function Book(){
                             <img src={CoverDepanMetodeTalaqqi} alt="" />
                             <img src={CoverBelakangMetodeTalaqqi} alt="" />
                         </div>
-                        <b className="inria-serif">Segera Terbit!</b>
+                        <b className="inria-serif">Pre Order Sekarang!</b>
                         <h5 className="roboto">Metode Talaqqi: Metode Cepat Belajar Membaca Al-Qur'an</h5>
                         <p className="inria-serif">Buku Metode Talaqqi adalah panduan praktis untuk belajar membaca Al-Qur'an dengan mudah dan cepat. Terdiri dari tiga bab, buku ini membahas cara membaca Al-Qur'an, hukum tajwid, dan motivasi dalam membacanya. Dengan metode talaqqi, buku ini membantu pembaca memahami Al-Qur’an secara efektif dan mendalam.</p>
                         <a className="alike btn" href="/buku/Metode-Talaqqi">Jelajahi Sekarang</a>
