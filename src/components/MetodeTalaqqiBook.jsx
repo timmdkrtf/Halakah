@@ -1,7 +1,7 @@
 import Logo from "../assets/image/1. Halakah Logo Utama (P).png";
 
 import CoverDepanMetodeTalaqqi from "../assets/image/Cover-depan-metode-talaqqi.png"
-import CoverBelakangMetodeTalaqqi from "../assets/image/Cover-belakang-metode-talaqqi-new.png"
+import CoverBelakangMetodeTalaqqi from "../assets/image/Cover Talaqqi.png"
 
 import { useState } from "react";
 
@@ -192,7 +192,7 @@ export default function MajmuBook() {
                   </div>
                   <div className="text">
                     <h6 className="roboto">ISBN</h6>
-                    <p className="inria-serif">-</p>
+                    <p className="inria-serif">978-623-10-8450-7x</p>
                   </div>
                   <div className="text">
                     <h6 className="roboto">Halaman</h6>
