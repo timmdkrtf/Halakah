@@ -1,7 +1,7 @@
 import CoverBelakang from "../assets/image/Cover Majmuatul Awrod.png"
 import CoverDepan from "../assets/image/Cover Majmuatul Awrod 1.png"
 import CoverDepanMetodeTalaqqi from "../assets/image/Cover-depan-metode-talaqqi.png"
-import CoverBelakangMetodeTalaqqi from "../assets/image/Cover-belakang-metode-talaqqi-new.png"
+import CoverBelakangMetodeTalaqqi from "../assets/image/Cover Talaqqi.png"
 
 import CountdownTimer from "../components/CountdownTimer"
 
