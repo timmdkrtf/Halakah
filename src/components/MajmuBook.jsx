@@ -103,7 +103,7 @@ export default function MajmuBook() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <div class="d-flex gap-2 ms-auto">
+            <div className="d-flex gap-2 ms-auto">
               <a href="https://wa.me/message/COYL226EZJTZC1" target="_blank">
                 <BsWhatsapp className="fs-5" />
               </a>
