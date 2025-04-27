@@ -127,10 +127,13 @@ export default function MajmuBook() {
               </button>
             </div>
             <div className="detail">
-              <div className="title mb-3 mt-1">
-                <h5 className="inria-serif fs-4">Pre Order Sekarang!</h5>
-              </div>
               <h2 className="roboto mb-5">Metode Talaqqi: Metode Cepat Belajar Membaca Al-Qur'an</h2>
+              <div className="title  mb-4">
+                <h5 className="roboto">Dapatkan sekarang!</h5>
+                <div className="harga">
+                  <h3 className="inria-serif">Rp75.000</h3>
+                </div>
+              </div>
               <a
                 id="href"
                 className="text-decoration-none"
