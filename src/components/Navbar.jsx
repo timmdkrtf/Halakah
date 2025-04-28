@@ -4,26 +4,7 @@ import { BsWhatsapp } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 
-import { useEffect, useState } from "react";
-import axios from "axios";
-
 export default function Navbar(){
-    const fetchCategories = async () => {
-        try {
-          const res = await axios.get("https://api-karyart-production-d31c.up.railway.app/api/categories",{
-            headers: {
-              Authorization: `Bearer ${localStorage.getItem("token")}`,
-            },
-          });
-          console.log(res.data.data); // ← penting: pakai .data.data karena Laravel resource
-        } catch (err) {
-          console.error("Gagal fetch kategori:", err);
-        }
-    };
-    
-    useEffect(() => {
-        fetchCategories();
-      }, []);
 
     return(
     <nav className="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
